@@ -1,0 +1,2 @@
+# spinner
+Spinner custom component
