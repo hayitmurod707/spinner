@@ -1,10 +1,8 @@
-import React from 'react';
 import styled from 'styled-components';
-import Gradient from './Gradient';
-import ScalingDots from './ScalingDots';
-import Spinner from './Spinner';
-import Windows from './Windows';
-import Windows2 from './Windows2';
+import Dots from './Loading/Dots';
+import Percent from './Loading/Percent';
+import Windows from './Loading/Windows';
+import Windows2 from './Loading/Windows2';
 const StyledElement = styled.div`
 	align-items: center;
 	display: flex;
@@ -21,13 +19,10 @@ const App = () => (
 			<Windows2 />
 		</StyledElement>
 		<StyledElement>
-			<Spinner />
+			<Percent />
 		</StyledElement>
 		<StyledElement>
-			<Gradient />
-		</StyledElement>
-		<StyledElement>
-			<ScalingDots />
+			<Dots />
 		</StyledElement>
 	</>
 );

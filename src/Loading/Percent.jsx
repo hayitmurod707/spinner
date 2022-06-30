@@ -1,37 +1,27 @@
-import React from 'react';
 import styled, { keyframes } from 'styled-components';
 const rotate = keyframes`
-   0% {
-    transform: rotate(0);
-  }
-  50% {
-    tranform: rotate(360deg);
-  }
-  100% {
-    transform: rotate(0);
-  }
+   100% {
+      transform: rotate(360deg);
+   }
 `;
 const dash = keyframes`
    0% {
-		stroke-dasharray: 1, 150;
-		stroke-dashoffset: 0;
-	}
-	1% {
-		stroke-dasharray: 1, 150;
-		stroke-dashoffset: 150;
-	}
-	99% {
-		stroke-dasharray: 130, 150;
-		stroke-dashoffset: -150;
-	}
-	100% {
-		stroke-dasharray: 130, 150;
-		stroke-dashoffset: 0;
-	}
+      stroke-dasharray: 1, 150;
+      stroke-dashoffset: 0;
+   }
+   50% {
+      stroke-dasharray: 90, 150;
+      stroke-dashoffset: -35;
+   }
+   100% {
+      stroke-dasharray: 90, 150;
+      stroke-dashoffset: -124;
+   }
 `;
 const StyledElement = styled.svg`
+	animation: ${rotate} 1.5s linear infinite;
 	& circle {
-		animation: ${dash} 2s linear infinite;
+		animation: ${dash} 1.5s linear infinite;
 	}
 `;
 const Component = () => (

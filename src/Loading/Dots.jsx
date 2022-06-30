@@ -1,4 +1,3 @@
-import React from 'react';
 import styled, { keyframes } from 'styled-components';
 const rotate = keyframes`
    0%,
@@ -38,9 +37,6 @@ const StyledElement = styled.div`
 		}
 		&:nth-child(4) {
 			animation-delay: 0.4s;
-		}
-		&:nth-child(5) {
-			animation-delay: 0.5s;
 		}
 	}
 `;
