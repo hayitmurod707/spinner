@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Dots from './Loading/Dots';
+import Gradient from './Loading/Gradient';
 import Percent from './Loading/Percent';
 import Windows from './Loading/Windows';
 import Windows2 from './Loading/Windows2';
@@ -20,6 +21,9 @@ const App = () => (
 		</StyledElement>
 		<StyledElement>
 			<Percent />
+		</StyledElement>
+		<StyledElement>
+			<Gradient />
 		</StyledElement>
 		<StyledElement>
 			<Dots />
