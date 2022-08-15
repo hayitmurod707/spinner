@@ -4,6 +4,7 @@ import Gradient from './Loading/Gradient';
 import Percent from './Loading/Percent';
 import Windows from './Loading/Windows';
 import Windows2 from './Loading/Windows2';
+// primary color #0000ff
 const StyledElement = styled.div`
 	align-items: center;
 	display: flex;

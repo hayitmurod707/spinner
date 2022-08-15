@@ -15,7 +15,7 @@ const StyledElement = styled.div`
 	width: 58px;
 	& div {
 		animation: ${rotate} 1s infinite ease backwards;
-		background: #0000ff;
+		background-color: #0000ff;
 		border-radius: 100%;
 		height: 10px;
 		margin: 0 3px;
@@ -40,7 +40,7 @@ const StyledElement = styled.div`
 		}
 	}
 `;
-const Component = () => (
+const Dots = () => (
 	<StyledElement>
 		<div></div>
 		<div></div>
@@ -48,4 +48,4 @@ const Component = () => (
 		<div></div>
 	</StyledElement>
 );
-export default Component;
+export default Dots;

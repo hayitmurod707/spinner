@@ -24,16 +24,17 @@ const StyledElement = styled.svg`
 		animation: ${dash} 1.5s linear infinite;
 	}
 `;
-const Component = () => (
-	<StyledElement width='46' height='46' viewBox='0 0 46 46'>
+const Percent = () => (
+	<StyledElement width="46" height="46" viewBox="0 0 46 46">
 		<circle
-			cx='23'
-			cy='23'
-			fill='none'
-			r='19.5'
-			stroke='#0000ff'
-			strokeLinecap='round'
-			strokeWidth='3.5'></circle>
+			cx="23"
+			cy="23"
+			fill="none"
+			r="19.5"
+			stroke="#0000ff"
+			strokeLinecap="round"
+			strokeWidth="3.5"
+		></circle>
 	</StyledElement>
 );
-export default Component;
+export default Percent;

@@ -55,9 +55,9 @@ const StyledElement = styled.div`
 		}
 	}
 `;
-const Component = () => (
+const Windows = () => (
 	<StyledElement>
-		<div className='content'>
+		<div className="content">
 			<div></div>
 			<div></div>
 			<div></div>
@@ -67,4 +67,4 @@ const Component = () => (
 		</div>
 	</StyledElement>
 );
-export default Component;
+export default Windows;

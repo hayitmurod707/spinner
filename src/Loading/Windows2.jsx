@@ -18,7 +18,7 @@ const StyledElement = styled.div`
 		position: relative;
 		& div {
 			animation: ${animation} 1.875s infinite backwards;
-			background-color: blue;
+			background-color: #0000ff;
 			border-radius: 50%;
 			height: 6px;
 			left: -3px;
@@ -49,9 +49,9 @@ const StyledElement = styled.div`
 		}
 	}
 `;
-const Component = () => (
+const Windows = () => (
 	<StyledElement>
-		<div className='content'>
+		<div className="content">
 			<div></div>
 			<div></div>
 			<div></div>
@@ -62,4 +62,4 @@ const Component = () => (
 		</div>
 	</StyledElement>
 );
-export default Component;
+export default Windows;

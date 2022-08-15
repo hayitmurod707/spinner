@@ -23,4 +23,5 @@ const StyledElement = styled.div`
 	mask: radial-gradient(farthest-side, #0000 calc(100% - 5px), #000 0);
 	-webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 5px), #000 0);
 `;
-export default StyledElement;
+const Gradient = () => <StyledElement />;
+export default Gradient;
