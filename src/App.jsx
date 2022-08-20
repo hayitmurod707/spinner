@@ -3,17 +3,16 @@ import Bubbles from './Loading/Bubbles';
 import CircularGradient from './Loading/CircularGradient';
 import CircularProgress from './Loading/CircularProgress';
 import Spin from './Loading/Spin';
-import Windows2 from './Loading/Windows2';
 import Windows from './Loading/Windows';
+import Windows2 from './Loading/Windows2';
 // primary color #0000ff
 const StyledElement = styled.div`
 	align-items: center;
 	display: flex;
+	flex-direction: column;
 	height: 100px;
 	justify-content: center;
 	width: 100%;
-	align-items: center;
-	flex-direction: column;
 `;
 const App = () => (
 	<>
