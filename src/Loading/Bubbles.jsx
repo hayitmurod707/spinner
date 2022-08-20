@@ -40,7 +40,7 @@ const StyledElement = styled.div`
 		}
 	}
 `;
-const Dots = () => (
+const Bubbles = () => (
 	<StyledElement>
 		<div></div>
 		<div></div>
@@ -48,4 +48,4 @@ const Dots = () => (
 		<div></div>
 	</StyledElement>
 );
-export default Dots;
+export default Bubbles;

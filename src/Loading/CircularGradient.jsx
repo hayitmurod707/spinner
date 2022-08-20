@@ -20,8 +20,8 @@ const StyledElement = styled.div`
 	background: radial-gradient(farthest-side, #0000ff 94%, #0000) top/5px 5px
 			no-repeat,
 		conic-gradient(#0000 30%, #0000ff);
-	mask: radial-gradient(farthest-side, #0000 calc(100% - 5px), #000 0);
-	-webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 5px), #000 0);
+	mask: radial-gradient(farthest-side, #0000 calc(100% - 4px), #000 0);
+	-webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 4px), #000 0);
 `;
 const Gradient = () => <StyledElement />;
 export default Gradient;

@@ -1,56 +1,50 @@
 import styled, { keyframes } from 'styled-components';
-const contentRotate = keyframes`
-	100% {
-		transform: rotate(360deg);
-	}
-`;
-const dotRotate = keyframes`
-	80%,
-	100% {
-		transform: rotate(360deg);
-	}
+const animation = keyframes`
+   0% {
+      transform: rotate(0deg) translateY(-20px);
+   }
+   60%,
+   100% {
+      transform: rotate(360deg) translateY(-20px);
+   }
 `;
 const StyledElement = styled.div`
+	align-items: center;
+	display: flex;
 	height: 46px;
+	justify-content: center;
 	width: 46px;
 	& .content {
-		animation: ${contentRotate} 2.5s infinite linear both;
-		height: 34px;
-		margin: 6px;
 		position: relative;
-		width: 34px;
 		& div {
-			animation: ${dotRotate} 2s infinite ease-in-out both;
-			height: 100%;
-			left: 0;
+			animation: ${animation} 1.875s infinite backwards;
+			background-color: #0000ff;
+			border-radius: 50%;
+			height: 6px;
+			left: -3px;
 			position: absolute;
-			top: 0;
-			width: 100%;
+			top: -3px;
+			width: 6px;
 			&:nth-child(1) {
-				animation-delay: -1.1s;
+				animation-delay: 0.1s;
 			}
 			&:nth-child(2) {
-				animation-delay: -1s;
+				animation-delay: 0.2s;
 			}
 			&:nth-child(3) {
-				animation-delay: -0.9s;
+				animation-delay: 0.3s;
 			}
 			&:nth-child(4) {
-				animation-delay: -0.8s;
+				animation-delay: 0.4s;
 			}
 			&:nth-child(5) {
-				animation-delay: -0.7s;
+				animation-delay: 0.5s;
 			}
 			&:nth-child(6) {
-				animation-delay: -0.6s;
+				animation-delay: 0.6s;
 			}
-			&:before {
-				background-color: rgb(0, 0, 255);
-				border-radius: 3px;
-				content: '';
-				display: block;
-				height: 6px;
-				width: 6px;
+			&:nth-child(7) {
+				animation-delay: 0.7s;
 			}
 		}
 	}
@@ -58,6 +52,7 @@ const StyledElement = styled.div`
 const Windows = () => (
 	<StyledElement>
 		<div className="content">
+			<div></div>
 			<div></div>
 			<div></div>
 			<div></div>
