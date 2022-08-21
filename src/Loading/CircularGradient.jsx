@@ -5,23 +5,15 @@ const spinner = keyframes`
 	}
 `;
 const StyledElement = styled.div`
+	-webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 4px), #000 0);
 	animation: ${spinner} 0.8s infinite linear;
-	border-radius: 50%;
-	height: 43px;
-	width: 43px;
-	/* mask: radial-gradient(farthest-side, #0000, calc(100% - 4px), #000 0);
-	background: conic-gradient(#0000 10%, #0000ff);
-	-webkit-mask: radial-gradient(
-		farthest-side,
-		#0000,
-		calc(100% - 4px),
-		#000 0
-	); */
 	background: radial-gradient(farthest-side, #0000ff 94%, #0000) top/5px 5px
 			no-repeat,
 		conic-gradient(#0000 30%, #0000ff);
+	border-radius: 50%;
+	height: 44px;
 	mask: radial-gradient(farthest-side, #0000 calc(100% - 4px), #000 0);
-	-webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 4px), #000 0);
+	width: 44px;
 `;
 const Gradient = () => <StyledElement />;
 export default Gradient;

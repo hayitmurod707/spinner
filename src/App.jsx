@@ -2,10 +2,12 @@ import styled from 'styled-components';
 import Bubbles from './Loading/Bubbles';
 import CircularGradient from './Loading/CircularGradient';
 import CircularProgress from './Loading/CircularProgress';
+import MetroSpinner from './Loading/MetroSpinner';
 import Spin from './Loading/Spin';
 import Windows from './Loading/Windows';
 import Windows2 from './Loading/Windows2';
 // primary color #0000ff
+// secondary color rgba(137, 141, 166, 0.3)
 const StyledElement = styled.div`
 	align-items: center;
 	display: flex;
@@ -16,6 +18,12 @@ const StyledElement = styled.div`
 `;
 const App = () => (
 	<>
+		<StyledElement>
+			<h3>MetroSpinner</h3>
+			<div>
+				<MetroSpinner />
+			</div>
+		</StyledElement>
 		<StyledElement>
 			<h3>Windows</h3>
 			<div>

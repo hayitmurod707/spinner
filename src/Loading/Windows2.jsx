@@ -11,14 +11,13 @@ const dotRotate = keyframes`
 	}
 `;
 const StyledElement = styled.div`
-	height: 46px;
-	width: 46px;
+	height: 44px;
+	width: 44px;
 	& .content {
 		animation: ${contentRotate} 2.5s infinite linear both;
-		height: 34px;
-		margin: 6px;
+		height: 44px;
 		position: relative;
-		width: 34px;
+		width: 44px;
 		& div {
 			animation: ${dotRotate} 2s infinite ease-in-out both;
 			height: 100%;
@@ -50,6 +49,9 @@ const StyledElement = styled.div`
 				content: '';
 				display: block;
 				height: 6px;
+				left: calc(50% - 3px);
+				position: absolute;
+				top: 0;
 				width: 6px;
 			}
 		}

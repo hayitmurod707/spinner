@@ -63,20 +63,20 @@ const StyledElement = styled.div`
 	border-radius: 50%;
 	border: 4px solid rgba(137, 141, 166, 0.3);
 	box-sizing: border-box;
-	height: 43px;
+	height: 44px;
 	position: relative;
-	width: 43px;
+	width: 44px;
 	& div {
 		animation: ${animation1} 1s linear alternate infinite,
 			${animation2} 0.8s linear infinite;
 		border-radius: 50%;
 		border: 4px solid #0000ff;
 		box-sizing: border-box;
-		height: 43px;
+		height: 44px;
 		left: -4px;
 		position: relative;
 		top: -4px;
-		width: 43px;
+		width: 44px;
 	}
 `;
 const CircularProgress = () => (

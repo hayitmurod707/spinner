@@ -11,9 +11,9 @@ const animation = keyframes`
 const StyledElement = styled.div`
 	align-items: center;
 	display: flex;
-	height: 46px;
+	height: 44px;
 	justify-content: center;
-	width: 46px;
+	width: 44px;
 	& .content {
 		position: relative;
 		& div {
