@@ -59,7 +59,7 @@ const StyledElement = styled.div`
 `;
 const Windows = () => (
 	<StyledElement>
-		<div className="content">
+		<div className='content'>
 			<div></div>
 			<div></div>
 			<div></div>

@@ -1,4 +1,3 @@
-import React from 'react';
 import styled, { keyframes } from 'styled-components';
 const animation = keyframes`
    100% {
@@ -239,7 +238,7 @@ const StyledElement = styled.div`
 `;
 const MetroSpinner = () => (
 	<StyledElement>
-		<div className="content">
+		<div className='content'>
 			<div></div>
 			<div></div>
 			<div></div>
