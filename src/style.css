@@ -1,4 +1,14 @@
 body {
-	margin: 0;
-	min-height: 100vh;
+   margin: 0;
+   min-height: 100vh;
+}
+h3 {
+   font-family: sans-serif;
+   font-weight: 500;
+}
+h1,
+h4 {
+   font-family: sans-serif;
+   text-align: center;
+   font-weight: 600;
 }

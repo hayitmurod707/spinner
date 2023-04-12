@@ -170,85 +170,85 @@ const animation9 = keyframes`
    }
 `;
 const StyledElement = styled.div`
-	height: 44px;
-	width: 44px;
-	transform: rotateY(180deg);
-	& .content {
-		align-items: center;
-		animation: 3s ease-in 0s infinite normal none running ${animation};
-		display: flex;
-		height: 44px;
-		justify-content: center;
-		position: relative;
-		width: 44px;
-		& div {
-			height: 44px;
-			opacity: 0;
-			position: absolute;
-			width: 44px;
-			&:nth-child(1) {
-				animation: 2s linear 0s infinite normal none running ${animation1};
-				transform: rotate(40deg);
-			}
-			&:nth-child(2) {
-				animation: 2s linear 0s infinite normal none running ${animation2};
-				transform: rotate(80deg);
-			}
-			&:nth-child(3) {
-				animation: 2s linear 0s infinite normal none running ${animation3};
-				transform: rotate(120deg);
-			}
-			&:nth-child(4) {
-				animation: 2s linear 0s infinite normal none running ${animation4};
-				transform: rotate(160deg);
-			}
-			&:nth-child(5) {
-				animation: 2s linear 0s infinite normal none running ${animation5};
-				transform: rotate(200deg);
-			}
-			&:nth-child(6) {
-				animation: 2s linear 0s infinite normal none running ${animation6};
-				transform: rotate(240deg);
-			}
-			&:nth-child(7) {
-				animation: 2s linear 0s infinite normal none running ${animation7};
-				transform: rotate(280deg);
-			}
-			&:nth-child(8) {
-				animation: 2s linear 0s infinite normal none running ${animation8};
-				transform: rotate(320deg);
-			}
-			&:nth-child(9) {
-				animation: 2s linear 0s infinite normal none running ${animation9};
-				transform: rotate(360deg);
-			}
-			&:before {
-				background-color: #0000ff;
-				border-radius: 50%;
-				content: '';
-				height: 6px;
-				left: 50%;
-				position: absolute;
-				top: 0%;
-				transform: translateX(-50%);
-				width: 6px;
-			}
-		}
-	}
+   height: 44px;
+   transform: rotateY(180deg);
+   width: 44px;
+   & .content {
+      align-items: center;
+      animation: 3s ease-in 0s infinite normal none running ${animation};
+      display: flex;
+      height: 44px;
+      justify-content: center;
+      position: relative;
+      width: 44px;
+      & div {
+         height: 44px;
+         opacity: 0;
+         position: absolute;
+         width: 44px;
+         &:nth-child(1) {
+            animation: 2s linear 0s infinite normal none running ${animation1};
+            transform: rotate(40deg);
+         }
+         &:nth-child(2) {
+            animation: 2s linear 0s infinite normal none running ${animation2};
+            transform: rotate(80deg);
+         }
+         &:nth-child(3) {
+            animation: 2s linear 0s infinite normal none running ${animation3};
+            transform: rotate(120deg);
+         }
+         &:nth-child(4) {
+            animation: 2s linear 0s infinite normal none running ${animation4};
+            transform: rotate(160deg);
+         }
+         &:nth-child(5) {
+            animation: 2s linear 0s infinite normal none running ${animation5};
+            transform: rotate(200deg);
+         }
+         &:nth-child(6) {
+            animation: 2s linear 0s infinite normal none running ${animation6};
+            transform: rotate(240deg);
+         }
+         &:nth-child(7) {
+            animation: 2s linear 0s infinite normal none running ${animation7};
+            transform: rotate(280deg);
+         }
+         &:nth-child(8) {
+            animation: 2s linear 0s infinite normal none running ${animation8};
+            transform: rotate(320deg);
+         }
+         &:nth-child(9) {
+            animation: 2s linear 0s infinite normal none running ${animation9};
+            transform: rotate(360deg);
+         }
+         &:before {
+            background-color: #5254f1;
+            border-radius: 50%;
+            content: '';
+            height: 6px;
+            left: 50%;
+            position: absolute;
+            top: 0%;
+            transform: translateX(-50%);
+            width: 6px;
+         }
+      }
+   }
 `;
-const MetroSpinner = () => (
-	<StyledElement>
-		<div className='content'>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-		</div>
-	</StyledElement>
+const Dotted = () => (
+   <StyledElement>
+      <div className='content'>
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+      </div>
+   </StyledElement>
 );
-export default MetroSpinner;
+export default Dotted;

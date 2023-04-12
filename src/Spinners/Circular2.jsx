@@ -59,28 +59,28 @@ const animation2 = keyframes`
 	}
 `;
 const StyledElement = styled.div`
-	border-radius: 50%;
-	border: 4px solid rgba(137, 141, 166, 0.3);
-	box-sizing: border-box;
-	height: 44px;
-	position: relative;
-	width: 44px;
-	& div {
-		animation: ${animation1} 1s linear alternate infinite,
-			${animation2} 0.8s linear infinite;
-		border-radius: 50%;
-		border: 4px solid #0000ff;
-		box-sizing: border-box;
-		height: 44px;
-		left: -4px;
-		position: relative;
-		top: -4px;
-		width: 44px;
-	}
+   border-radius: 50%;
+   border: 4px solid rgba(137, 141, 166, 0.3);
+   box-sizing: border-box;
+   height: 44px;
+   position: relative;
+   width: 44px;
+   & div {
+      animation: ${animation1} 1s linear alternate infinite,
+         ${animation2} 0.8s linear infinite;
+      border-radius: 50%;
+      border: 4px solid #5254f1;
+      box-sizing: border-box;
+      height: 44px;
+      left: -4px;
+      position: relative;
+      top: -4px;
+      width: 44px;
+   }
 `;
-const CircularProgress = () => (
-	<StyledElement>
-		<div></div>
-	</StyledElement>
+const Circular2 = () => (
+   <StyledElement>
+      <div></div>
+   </StyledElement>
 );
-export default CircularProgress;
+export default Circular2;
