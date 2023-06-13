@@ -6,7 +6,7 @@ const animation = keyframes`
 `;
 const StyledElement = styled.div`
    -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 4px), #000 0);
-   animation: ${animation} 0.8s infinite linear;
+   animation: ${animation} 0.6s infinite linear;
    background: radial-gradient(farthest-side, #5254f1 94%, #0000) top/5px 5px
          no-repeat,
       conic-gradient(#0000 30%, #5254f1);

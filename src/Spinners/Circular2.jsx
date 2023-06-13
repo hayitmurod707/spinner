@@ -60,14 +60,14 @@ const animation2 = keyframes`
 `;
 const StyledElement = styled.div`
    border-radius: 50%;
-   border: 4px solid rgba(137, 141, 166, 0.3);
+   border: 4px solid transparent;
    box-sizing: border-box;
    height: 44px;
    position: relative;
    width: 44px;
    & div {
       animation: ${animation1} 1s linear alternate infinite,
-         ${animation2} 0.8s linear infinite;
+         ${animation2} 0.6s linear infinite;
       border-radius: 50%;
       border: 4px solid #5254f1;
       box-sizing: border-box;
